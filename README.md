@@ -1,9 +1,7 @@
-# Code repository
-The code to support our submission "Explanations for Itemset Mining by Constraint Programming: A Case Study for ChEMBL data"
+# Explanations for Data Mining by Constraint Programming
+The code to support our IDA'23 paper "Explanations for Itemset Mining by Constraint Programming: A Case Study using ChEMBL data"
 
 ### Structure of the code:
-
-- **ac3_backtrack_dm_emerging_closed_gr.py** -- emerging closed itemset mining (growth rate)
 
 - **ac3_backtrack_dm_emerging_closed.py** -- emerging closed itemset mining (chi-square)
 
@@ -19,15 +17,15 @@ The code to support our submission "Explanations for Itemset Mining by Constrain
 
 Data mining by constraint programming:
 
-*python3 'program_name' 'dataset_name' 'transactions' 'transaction_classes' 'parameters'* (see each program file for an example)
+*python3 'program_name' 'dataset_name' 'transactions' 'transaction_classes' 'parameters'* (see comments in each program for examples)
 
 Basic statistics:
 
-*python3 solution_check.py 'dataset_name' 'total_number_transactions'* (see program file for an example)
+*python3 solution_check.py 'dataset_name' 'total_number_transactions'* (see comments for examples)
 
 Environment requirements: Python 3.8.8, numpy, intertools
 
-Data must be place into 'data' directory. Data sets from [1] can be used for benchmarking (need to be open with *loadDBFromFile(file)* function).
+Data must be place into 'data' directory. Sets from [1] can be used for benchmarking (need to be open with *loadDBFromFile(file)* function).
 
 ------------------------------------------------------------
 References:
